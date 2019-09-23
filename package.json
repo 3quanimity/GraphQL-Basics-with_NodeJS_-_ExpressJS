@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-express-app-with-graphql",
+  "version": "1.0.0",
+  "description": "first graphQL use",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon -r esm server.js"
+  },
+  "author": "Haythem Ben Drissia",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
